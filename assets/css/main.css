@@ -7918,3 +7918,57 @@ Animate wobble-vertical
 .footer-widget-1 h2{
   color: #fff;
 }
+
+
+.small-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-bottom {
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-bottom .left-area {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-bottom .left-area span,
+.footer-bottom .left-area p {
+  margin: 5px 0;
+}
+
+.footer-bottom a {
+  color: #EA1826;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+
+@media (min-width: 768px) {
+  .footer-bottom .left-area {
+    width: auto;
+    text-align: left;
+  }
+}
