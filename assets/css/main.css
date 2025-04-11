@@ -7976,7 +7976,7 @@ Animate wobble-vertical
 
 .login-wrapper {
   min-height: 100vh;
-  background: linear-gradient(to right, #d3cce3, #e9e4f0); /* Soft gradient background */
+  background: linear-gradient(to right, #d3cce3, #e9e4f0); 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8052,4 +8052,11 @@ Animate wobble-vertical
 
 .signup-link a:hover {
   text-decoration: underline;
+}
+
+.footer-widget-1 h5{
+  color: #fff;
+}
+.header-logo h5{
+  font-size: 20px;
 }
