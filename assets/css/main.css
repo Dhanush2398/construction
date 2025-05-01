@@ -8061,3 +8061,7 @@ Animate wobble-vertical
 .footer-widget-1 .image img{
   height: 100px;
 }
+
+.footer-widget-2 h6{
+  color: #fff;
+}
