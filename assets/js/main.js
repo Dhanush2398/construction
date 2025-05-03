@@ -1089,4 +1089,21 @@
 })(jQuery);
 
 
+const apkLink = document.getElementById('apkDownloadLink');
+const apkMsg = document.getElementById('apkDownloadMessage');
+const apkLinkMobile = document.getElementById('apkDownloadLinkMobile');
+const apkMsgMobile = document.getElementById('apkDownloadMessageMobile');
 
+if (apkLink) {
+   apkLink.addEventListener('click', () => {
+	  apkMsg.style.display = 'block';
+	  setTimeout(() => apkMsg.style.display = 'none', 3000);
+   });
+}
+
+if (apkLinkMobile) {
+   apkLinkMobile.addEventListener('click', () => {
+	  apkMsgMobile.style.display = 'block';
+	  setTimeout(() => apkMsgMobile.style.display = 'none', 3000);
+   });
+}
